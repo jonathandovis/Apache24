@@ -34,3 +34,31 @@ ly determine the server's fully qualified domain name, using fe80::8db0:d5dc:847
 [Fri Aug 28 09:40:36.748294 2015] [mpm_winnt:notice] [pid 9168:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Aug 28 09:40:38.776297 2015] [mpm_winnt:notice] [pid 7924:tid 452] AH00364: Child: All worker threads have exited.
 [Fri Aug 28 09:40:38.791897 2015] [mpm_winnt:notice] [pid 9168:tid 436] AH00430: Parent: Child process 7924 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8db0:d5dc:8477:4ebe. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 28 14:53:56.784028 2015] [mpm_winnt:notice] [pid 2236:tid 516] AH00455: Apache/2.4.16 (Win32) configured -- resuming normal operations
+[Fri Aug 28 14:53:56.784028 2015] [mpm_winnt:notice] [pid 2236:tid 516] AH00456: Apache Lounge VC14 Server built: Jul 21 2015 16:07:41
+[Fri Aug 28 14:53:56.784028 2015] [core:notice] [pid 2236:tid 516] AH00094: Command line: 'c:\\apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 28 14:53:56.794028 2015] [mpm_winnt:notice] [pid 2236:tid 516] AH00418: Parent: Created child process 2328
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8db0:d5dc:8477:4ebe. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8db0:d5dc:8477:4ebe. Set the 'ServerName' directive globally to suppress this message
+[Fri Aug 28 14:53:57.104029 2015] [mpm_winnt:notice] [pid 2328:tid 456] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 28 15:01:17.608382 2015] [mpm_winnt:crit] [pid 2328:tid 456] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Aug 28 15:01:17.608382 2015] [mpm_winnt:warn] [pid 2328:tid 4] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Aug 28 15:01:17.608382 2015] [mpm_winnt:warn] [pid 2328:tid 444] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Aug 28 15:01:19.622786 2015] [mpm_winnt:notice] [pid 2328:tid 456] AH00364: Child: All worker threads have exited.
+[Fri Aug 28 15:01:30.614805 2015] [core:warn] [pid 7344:tid 172] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 28 15:01:30.630405 2015] [mpm_winnt:notice] [pid 7344:tid 172] AH00455: Apache/2.4.16 (Win32) configured -- resuming normal operations
+[Fri Aug 28 15:01:30.630405 2015] [mpm_winnt:notice] [pid 7344:tid 172] AH00456: Apache Lounge VC14 Server built: Jul 21 2015 16:07:41
+[Fri Aug 28 15:01:30.630405 2015] [core:notice] [pid 7344:tid 172] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 28 15:01:30.630405 2015] [mpm_winnt:notice] [pid 7344:tid 172] AH00418: Parent: Created child process 5640
+Apache server interrupted...
+015] [mpm_winnt:notice] [pid 5640:tid 208] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 28 15:01:56.067554 2015] [mpm_winnt:notice] [pid 7344:tid 172] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Fri Aug 28 15:01:58.423158 2015] [mpm_winnt:notice] [pid 5640:tid 208] AH00364: Child: All worker threads have exited.
+[Fri Aug 28 15:01:58.438758 2015] [mpm_winnt:notice] [pid 7344:tid 172] AH00430: Parent: Child process 5640 exited successfully.
+[Fri Aug 28 15:02:18.215394 2015] [mpm_winnt:notice] [pid 8108:tid 352] AH00455: Apache/2.4.16 (Win32) configured -- resuming normal operations
+[Fri Aug 28 15:02:18.215394 2015] [mpm_winnt:notice] [pid 8108:tid 352] AH00456: Apache Lounge VC14 Server built: Jul 21 2015 16:07:41
+[Fri Aug 28 15:02:18.215394 2015] [core:notice] [pid 8108:tid 352] AH00094: Command line: 'c:\\apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 28 15:02:18.215394 2015] [mpm_winnt:notice] [pid 8108:tid 352] AH00418: Parent: Created child process 4568
+[Fri Aug 28 15:02:18.496194 2015] [mpm_winnt:notice] [pid 4568:tid 204] AH00354: Child: Starting 64 worker threads.
