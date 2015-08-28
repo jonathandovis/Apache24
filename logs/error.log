@@ -1,0 +1,16 @@
+[Fri Aug 28 15:54:22.327993 2015] [mpm_winnt:notice] [pid 9140:tid 356] AH00455: Apache/2.4.16 (Win32) configured -- resuming normal operations
+[Fri Aug 28 15:54:22.327993 2015] [mpm_winnt:notice] [pid 9140:tid 356] AH00456: Apache Lounge VC14 Server built: Jul 21 2015 16:07:41
+[Fri Aug 28 15:54:22.327993 2015] [core:notice] [pid 9140:tid 356] AH00094: Command line: 'c:\\apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 28 15:54:22.327993 2015] [mpm_winnt:notice] [pid 9140:tid 356] AH00418: Parent: Created child process 1344
+[Fri Aug 28 15:54:22.608793 2015] [mpm_winnt:notice] [pid 1344:tid 212] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 28 15:54:33.659915 2015] [rewrite:trace1] [pid 1344:tid 736] mod_rewrite.c(476): [client ::1:50358] ::1 - - [localhost/sid#32be58][rid#2f600c8/initial] [perdir C:/Apache24/htdocs/] pass through C:/Apache24/htdocs/
+[Fri Aug 28 15:54:33.659915 2015] [rewrite:trace1] [pid 1344:tid 736] mod_rewrite.c(476): [client ::1:50358] ::1 - - [localhost/sid#32be58][rid#2f660e0/subreq] [perdir C:/Apache24/htdocs/] pass through C:/Apache24/htdocs/index.html
+[Fri Aug 28 15:58:51.785632 2015] [mpm_winnt:notice] [pid 9140:tid 356] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Aug 28 15:58:51.801232 2015] [mpm_winnt:notice] [pid 9140:tid 356] AH00455: Apache/2.4.16 (Win32) configured -- resuming normal operations
+[Fri Aug 28 15:58:51.801232 2015] [mpm_winnt:notice] [pid 9140:tid 356] AH00456: Apache Lounge VC14 Server built: Jul 21 2015 16:07:41
+[Fri Aug 28 15:58:51.801232 2015] [core:notice] [pid 9140:tid 356] AH00094: Command line: 'c:\\apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 28 15:58:51.801232 2015] [mpm_winnt:notice] [pid 9140:tid 356] AH00418: Parent: Created child process 2756
+[Fri Aug 28 15:58:52.786034 2015] [mpm_winnt:notice] [pid 2756:tid 212] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 28 15:58:53.800036 2015] [mpm_winnt:notice] [pid 1344:tid 212] AH00364: Child: All worker threads have exited.
+[Fri Aug 28 15:58:56.350914 2015] [rewrite:trace1] [pid 2756:tid 776] mod_rewrite.c(476): [client ::1:50465] ::1 - - [localhost/sid#31be58][rid#2e320d0/initial] [perdir C:/Apache24/htdocs/] pass through C:/Apache24/htdocs/
+[Fri Aug 28 15:58:56.350914 2015] [rewrite:trace1] [pid 2756:tid 776] mod_rewrite.c(476): [client ::1:50465] ::1 - - [localhost/sid#31be58][rid#2e360e0/subreq] [perdir C:/Apache24/htdocs/] pass through C:/Apache24/htdocs/index.html
